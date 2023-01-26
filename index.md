@@ -1,4 +1,4 @@
-##Samantha Cole's ECE 5160 Fast robots page
+## Samantha Cole's ECE 5160 Fast Robots page
 
 Hello! Welcome to my page.
 
