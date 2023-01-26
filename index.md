@@ -1,6 +1,6 @@
-### Hello World
+### Samantha's Cole ECE 5160 Fast Robots Page
 
-Samantha 
-yes
-dog
+Hello! Welcome to my page.
+
+
 
