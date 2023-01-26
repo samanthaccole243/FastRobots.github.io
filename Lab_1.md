@@ -9,6 +9,7 @@ This lab Was relatively simple. We were asked to download the latest arduino IDE
 <img width="140" alt="spark installedpng" src="https://user-images.githubusercontent.com/89661904/214734151-92a7946a-5dd6-49c3-9cf5-a6f022f13194.png">
 
 *Correct Board Chosen*
+
 <img width="272" alt="board" src="https://user-images.githubusercontent.com/89661904/214734731-ecbf085a-6e89-43e3-8784-fc8480f2d6fb.png">
 
 <div align="left">
