@@ -25,7 +25,7 @@ I then plugged in the RedBoard Artemis Nano and ran the blink code from the exam
 
 ![](https://user-images.githubusercontent.com/89661904/214737368-16a09cff-1476-4e5e-bf80-f415c7d8b30f.MOV)
 
-
+![](https://youtube.com/shorts/dIMhkwiaZEY?feature=share)
 
 
 
