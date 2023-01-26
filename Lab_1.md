@@ -4,9 +4,9 @@ This lab Was relatively simple. We were asked to download the latest arduino IDE
 
 <div align="center">
 
-*SparkFun Apollo3 Board Installed*
 
-<img width="140" alt="spark installedpng" src="https://user-images.githubusercontent.com/89661904/214734151-92a7946a-5dd6-49c3-9cf5-a6f022f13194.png">
+
+![SparkFun Apollo3 Board Installed]<img width="140" alt="spark installedpng" src="https://user-images.githubusercontent.com/89661904/214734151-92a7946a-5dd6-49c3-9cf5-a6f022f13194.png">
 
 *Correct Board Chosen*
 
