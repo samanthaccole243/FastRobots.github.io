@@ -17,7 +17,10 @@ I then plugged in the RedBoard Artemis Nano and ran the blink code from the exam
 ![](https://user-images.githubusercontent.com/89661904/214735930-b352260d-d1ac-4031-9c57-06db4b2dc1f8.jpg)
 
 *Video of the Light Blinking*
-https://user-images.githubusercontent.com/89661904/214736136-113e1a0d-8196-47ab-bad3-f961e864f9cb.MOV
+
+https://user-images.githubusercontent.com/89661904/214736213-29bc6551-0fbe-4173-8218-8d0dc2bcd9b7.MOV
+
+
 
 
 
