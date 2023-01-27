@@ -30,9 +30,13 @@ A video of this can be seen below. I type "serial" and press enter and the serai
 <iframe width="560" height="315" src="https://youtube.com/embed/bbhy4zTsMbI?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Next we Ran the Analog Read example. This code reads the temperature of the chip. In the video you can see the 3 leftmost digits of the total 6 bounce between 331 and 332. Once I put my finger on the chip, the temperature increases and the temperature 3 leftmost digits bounce between 332 and 333. Clearly the temperature and relative increase is being noted on the serial monitor.
+*Video of Changing Temperature on Serial Monitor*
+<iframe width="560" height="315" src="https://youtube.com/embed/Qjb8DG212BE?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-The last part of the lab was to run the Microphone output example. This code basically measured frequencies near the chip and printed the loudest frequncy Hz value on the Serial Monitor. In the video below, you can see that when I whistle the frequency jumps into the thousands!
+The last part of the lab was to run the Microphone output example. This code basically measured frequencies near the chip and printed the loudest frequncy Hz value on the Serial Monitor. In the video below, you can see that when I whistle the frequency jumps into the thousands! Unfortunately, my camera jumped out of focus quickly after, so feel free to pause just as I whistle and go frame by frame to see the change in frequency.
+*Video of Whistle Frequency on Serial Monitor*
+<iframe width="560" height="315" src="https://youtube.com/embed/ig2hzcGwdT4?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 There was an additional section for MENG students in this Lab, since I am in the 5000 level version I completed this section too. This asked us to write a code where the board would blink the LED when an A note was played. I used the example code from the microphone output example and edited it to complete this task. First, I initiated the LED in void setup using the line below. 
@@ -50,17 +54,8 @@ I then added an if statement searching for the MyFreq to be between the Hz range
 
 Unfotunately, for my video, I did not add the \n as seen above in the code, so the Note A Found is actually for the line and frequency above, not the frequency it is aligned with. Here is a video of the code working and below that is a photo of the serial monitor output.
 
+
+<iframe width="560" height="315" src="https://youtube.com/embed/-FgUyuQ9n4c?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ![serialmonitornotea](https://user-images.githubusercontent.com/89661904/214744200-5132b109-bd7d-4015-a1ae-a2610bb4d83f.png)
 
-
-
-
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gv28DwYlsIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gv28DwYlsIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Gv28DwYlsIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
