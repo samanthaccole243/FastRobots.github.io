@@ -22,16 +22,12 @@ I then plugged in the RedBoard Artemis Nano and ran the blink code from the exam
 ![](https://user-images.githubusercontent.com/89661904/214735930-b352260d-d1ac-4031-9c57-06db4b2dc1f8.jpg)
 
 *Video of the Light Blinking*
-
-https://user-images.githubusercontent.com/89661904/214737368-16a09cff-1476-4e5e-bf80-f415c7d8b30f.MOV
-
-![Blinking LED](https://www.youtube.com/shorts/dIMhkwiaZEY)
-
-(622) Blinking light - YouTube
+<iframe width="560" height="315" src="https://youtube.com/embed/dIMhkwiaZEY?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Next I ran the Example code for echoing text on the serial monitor.
 A video of this can be seen below. I type "serial" and press enter and the serail monitor echoes this text.
-
+*Video of Echoing Text*
+<iframe width="560" height="315" src="https://youtube.com/embed/bbhy4zTsMbI?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Next we Ran the Analog Read example. This code reads the temperature of the chip. In the video you can see the 3 leftmost digits of the total 6 bounce between 331 and 332. Once I put my finger on the chip, the temperature increases and the temperature 3 leftmost digits bounce between 332 and 333. Clearly the temperature and relative increase is being noted on the serial monitor.
 
@@ -59,9 +55,12 @@ Unfotunately, for my video, I did not add the \n as seen above in the code, so t
 
 
 
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gv28DwYlsIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Gv28DwYlsIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-<iframe width="560" height="315" src="https://youtube.com/embed/dIMhkwiaZEY?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gv28DwYlsIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
