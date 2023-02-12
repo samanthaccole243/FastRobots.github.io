@@ -1,4 +1,4 @@
-### Lab 2
+## Lab 2
 We had a prelab to complete ahead of time for lab 2. Unfortunately, I did not get very far into this prelab. I was able to install python, pip, and the virtual environment, but could not activate the FastRobots_ble Virtual environment due to settings regarding scripts within my PC. I couldn't figure out how to woirk around this. I tried posting on ed (the class discussion forum) to ask for help or guidance, but I got no response. This means I went into Lab 2 without my prelab completed. In lab, I was relatively quickly helped to find a work around with my issue. I downloaded and unziped the appropriate codebase files we were given, installed everything necessary to set connect the artmenis board, and attempted to connect. Unfortunately after quite a long time of attempting to connect with the help of TA's and many other students struggling, it became evident that PCs running windows 11 were not going to support bluetooth on the Artemis board.
 
 This means I had to start the lab from the beginning (before prelab) on the desktop computer. After redownloading the codebase and activating the FastRobots_ble virtual environment, I was able to launch jupyter lab and connect to the artmeis board!
@@ -25,7 +25,7 @@ There were othe cells and tests like the two integers serial output response you
 
 The main portion of lab 2 had us writing code in the ble_arduino.ino and the demo file to interact with the bluetooth on the artemis and the computer. I will now address each task individually.
 
-## Task 1
+### Task 1
 The first Task asked us to "Send an echo command with a string value from the computer to the Artemis board, and recieve an augmented string on the computer."
 This means using jupyter lab, I can send the ECHO command with a string. This is the computer sending this to my artemis board. I wrote the ECHO command in the ble_arduin.ino in c and uploaded that to my board. This can be seen below:
 <img width="424" alt="echocode" src="https://user-images.githubusercontent.com/89661904/218337914-b4f9b7c9-af32-450e-bbae-e97f83078ce0.png">
@@ -42,7 +42,7 @@ This code initializes an integer, clears the string value and adds "T: " to it. 
 ![Task2](https://user-images.githubusercontent.com/89661904/218338541-ca84cd6c-a8f2-452e-90a2-7ec81794b372.PNG)
 
 
-## Task 3
+### Task 3
 So far I have been using the receive function to check for the string sent to the computer. Instead of running this everytime I send a command which sends a string back to the computer, it would be nice to have the computer automatically print a received string when a new one arrives. Task 3 addresses this. It asks students to "Setup a notification handler in Python to receive the string value (BLEStringCharacteristic in Arduino) from the Artemis board."
 My notification handler can be seen written here:
 ![task3 code](https://user-images.githubusercontent.com/89661904/218338811-e928c3e5-b240-400e-922a-df2f2d819dc8.PNG)
@@ -52,6 +52,6 @@ After running the notification handler, I reran lab task 2 and instead of needin
 ![t3-now t2 prints immediately](https://user-images.githubusercontent.com/89661904/218338818-1e787f20-0030-4aa5-936e-2eefd7525513.PNG)
 
 
-## Task 4
+### Task 4
  
  
