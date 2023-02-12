@@ -15,4 +15,4 @@ Hello! Welcome to my page.
 
 [Lab 1](https://samanthaccole243.github.io/FastRobots.github.io/Lab_1.html)
 
-
+[Lab 2](https://samanthaccole243.github.io/FastRobots.github.io/Lab_2.html)
