@@ -38,9 +38,13 @@ Serial monitor output showing both sensors working together can be seen here:
 A full wiring diagram can be seen here:
 ![IMG_1139](https://user-images.githubusercontent.com/89661904/218803154-35f3a3cb-eb44-4b38-bf9d-a26b6b3d0dfe.jpg)
 
-### Answer Q 8,9 
+We were also asked to write code so that the clock is printed repeatedly and the sensor data is only printed when ready. This means the code is not blocked waiting on the sensor to be ready. My serial monitor output for this code can be seen below. Notice how I have multiple instances where the time is printed before a sensor reading interrupts that reading.
+<img width="371" alt="see lag" src="https://user-images.githubusercontent.com/89661904/218949363-85063f7d-99e3-4ca2-bccd-e7e8fd2862b8.png">
+
+Finally, I combined what I learned in lab 2 with what I learned in lab 1. I made it so that over bluetooth I could see timestamped ToF data for a period of 5s of measuring. 
+I actually just copied the setup and import/define/initialization statements outside the main loop from my ToF sensor code, then made a command for to measure time and distance and save each set in an array then sent packets of that information over bluetooth from my artemis board to my commputer. 
+
 
 ## MENG question
-
-
-
+Another sensor similar to ToF which functions off of infrared transmissions is an ultrasonic sensor. The ToF sensor uses timed pulses of light and their reflection to measure distance. An ultrasonic sensor uses timed pulses of sound and measures its return to gather ditance information.
+Ultrasonic sensors have a shorter range, worse accuracy outside its range, and performs longer readings (light travels faster than sound). This means ToF is better in all these areas. Unfortunately ToF does have its downfalls. Colors reflect different amounts of light and mishapen items reflect light in odd directions. A color reflecting too much light may give false readings and light reflected in the wrong direction could also cause false readings. This also means if a room is too bright the readings could be inaccurate. the ToF needs to have be able to measure the reflection of the light it sent and not some other ray.
