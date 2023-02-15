@@ -75,7 +75,9 @@ Also I wanted to compare 120Bytes of data sent as packets of 5Bytes to answer if
 ![MENG_120B](https://user-images.githubusercontent.com/89661904/218341125-7cbf84d5-2c90-48f4-b7e8-57e04eabb79e.PNG)
 ![MENG_5B_sets_1](https://user-images.githubusercontent.com/89661904/218341128-c47d4ebb-dcd4-42c6-9ad3-3dc3fe4e299e.PNG)
 ![MENG_5B_sets_2](https://user-images.githubusercontent.com/89661904/218341133-e20c75aa-0078-4f65-9767-c8f5e02cb9e9.PNG)
-I ran the first functions 24 times and created plots to compare all of these.
-Analyze plots.
-Answer reliability question.
 
+I sent the above commands 30 times and took the average of each commands' time taken to send that amount of data. These averages can be seen compared below.
+<img width="341" alt="meng task pic" src="https://user-images.githubusercontent.com/89661904/218920234-f8e24e7c-3ddc-4eb8-80e5-d6e71d6e4c58.png">
+As you can see the amount of time it takes to send 120Bytes of data is not much longer than the amount of time it takes to send 5Bytes of data. If you send 24 5Byte packets which essentially creates 120Bytes when strung together on the other side, the time is significantly increased. The plot above shows that there is significant overhead when it comes sending a bunch of smaller packets to make the same size. This is because for each packet sent, a new connection path or "handshake" must be established.
+
+This also brings up the issue of reliability. I sent those 24 packets without delays in between and it did not seem to affect the reliability of the data. In otherwords, It did not seem like I lost a packet. In theory, there could be times when packets are lost when large data is being sent rapidly.
