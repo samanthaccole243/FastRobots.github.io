@@ -13,21 +13,30 @@ This is expected because the datasheet informs us that this will be the address 
 A screenshot of the serial monitor output for the example code with default settings can be seen here:
 ![distance single sensor](https://user-images.githubusercontent.com/89661904/218786884-452cff1c-7ee1-48d0-ab66-1bc572e2ce4d.PNG)
 
-I then ran a series of test to compare accuracy between modes,  and if the range affected the accuracy, as well as the sensor range, repeatability, and ranging time.
+I then ran a series of test to assess accuracy, range, repeatability, and ranging times for the sensor.
 
-### Explain tests and results here
+For these test, I used my over 3ft long coffee table. I carefully measured and marked certain Measurements. Then ran the ToF sensor to gather data. I did 5 full trials for each measurement then took the average results of these trials. Here are my results:
+<img width="455" alt="accuracy" src="https://user-images.githubusercontent.com/89661904/218943798-e4eee374-8b88-4a10-9ef3-5d7b7b55540c.png">
+<img width="455" alt="reliability" src="https://user-images.githubusercontent.com/89661904/218943819-d9db24c2-5eb5-499f-ba1d-bf9b9b17121a.png">
 
-Next, we were tasked with running two ToF sensors at once. Both sensors have the same address 0x29 which we initially confirmed using the first sensor. To use both sensors at once, I needed to turn on sensor off, change the other sensors address, then turn the first sensor back on. Luckily there is a shutoff pin located on the ToF sensor. I soldered an additional purple wire from the shuttof pin of one sensor to a digital pin on the Artemis board (I chose pin 8 but many other pins could have worked). The code below explains how I got the two sensors working together:
+Ranging: You can already see that the ToF sensor does not work well below 3 inches. I tried to gather a measurement for the long range, but I did not have a long enough table. Judging by the documentation, I might guess that the sensor begins giving faulty measurements just under 4m (13.12ft).
+For accuracy I merely compared the ToF reading when I placed a book at each marker to the actual distance hand measured by me at that marker. You can see that the ToF is extremely accurate within its range.
+For Reliability, I compared the standard deviations of all of these measurements. You can again see the sensor does not deviate much from the mean of the data when within range, meaning it is not giving many (or any) outliers in data. At 1 inch, the standard deviation is zero, solely because the sensor read zero even though the distance was not zero... At 2 inches, you can see the standard deviation is higher than the others because this measurement is outside the ToFs range and causes the ToF to give false readings.
+To measure Ranging time, I simply took note of the time in milliseconds at the beginning of the loop and took the time at the end of the ranging and measured this. I did this again but now while leaving out the stopranging portion of the code. Here are my results: 
+<img width="227" alt="rangingtime" src="https://user-images.githubusercontent.com/89661904/218943847-4fe8383e-2a83-4572-b3d4-b9b7887917e3.png">
+
+They were subrisingly quite similar.
+Next, we were tasked with running two ToF sensors at once. Both sensors have the same address 0x29 which we initially confirmed using the first sensor. To use both sensors at once, I needed to turn on sensor off, change the other sensors address, then turn the first sensor back on. Luckily there is a shutoff pin located on the ToF sensor. I soldered an additional purple wire from the shuttof pin of one sensor to a digital pin on the Artemis board (I chose pin 8 but many other pins could have worked). The code below shows tidbits of how I got the two sensors working together:
+<img width="234" alt="code tidbit" src="https://user-images.githubusercontent.com/89661904/218944645-420911f3-9811-4f80-bbda-82b824ab65ea.png">
+The first line enables my ToF1 shutdown pin (pin8) as an output. The second line sets it to low (which shuts off ToF1). The fourth line changes the address of ToF2 and the sixth line turns ToF1 back on. The delays are just to make sure there is time to assure shutdown before changing the other address and then assure the address is changed before turning the other back on.
+
+
+Serial monitor output showing both sensors working together can be seen here:
+<img width="292" alt="2 sensors working" src="https://user-images.githubusercontent.com/89661904/218944620-7db72a27-5ecf-4353-a5a7-b4383540b195.png">
+
 
 A full wiring diagram can be seen here:
 ![IMG_1139](https://user-images.githubusercontent.com/89661904/218803154-35f3a3cb-eb44-4b38-bf9d-a26b6b3d0dfe.jpg)
-
-Serial monitor output showing both sensors working together can be seen here:
-
-
-I then performed series of tests with my 2 ToF sensors running to again compare accuracy, range, reliability, and ranging time.
-
-### Explain tests and results here
 
 ### Answer Q 8,9 
 
