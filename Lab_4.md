@@ -18,4 +18,4 @@ Rolling around the Y towards the negative X outputs a pitch of 0 and a roll of -
 Rolling around the X toward the negative Y outputs a roll of -90 and a pitch of 0 as seen below:
 <img width="317" alt="roll_0_pitch_90" src="https://user-images.githubusercontent.com/89661904/220506765-83412dfc-68d1-4ceb-a75a-422146ca0518.png">
 
-It can be seen above that the data is quite noisy. I ran my RC car next to my flat IMU and captured the noise:
+It can be seen above that the data is quite noisy. I ran my RC car next to my flat IMU and captured the noise for both pitch and roll then I took an fft of both data. Below are these graphs. It can be seen that there are no frequencies where the noise is predominantly present. I took this to mean that I did not need to make an RC filter.
