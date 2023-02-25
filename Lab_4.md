@@ -46,15 +46,11 @@ Using this method, I collected data every blank__ _______________milliseconds.__
 Next I edit my Lab 2/3 code which sent ToF data over bluetooth in arrays to do the same now with my IMU data. I decided to choose 1 array per data set so that I did not reach memory limits within the artemis. I also thought this was just neater. I did this by just integrating the code from lab 4 so far into the ble_arduino.ide code. I merely copied the setup of the lab 4 ino file to that of the bluetooth file then added my lab 4 file as a command I can send in the bluetooth script. I will not include a photo of this since it is so large and a combination of things discussed previously anyways. 
 Here is a photo of it sending data: ____________expecting things here___
 
-Now we can try all this out on the car. First I need a way to power the artemis not connected to my laptop. To do this I soldered the 3.7V 650mAh battery to a different connection piece so I could plug it into the artemis. ___Here is a picture of the battery plugged into the artemis and my beautiful solder job with the heat sink!__
+Now we can try all this out on the car. First I need a way to power the artemis not connected to my laptop. To do this I soldered the 3.7V 650mAh battery to a different connection piece so I could plug it into the artemis.
+___Here is a picture of the battery plugged into the artemis and my beautiful solder job with the heat sink!__
 
-I also wanted to get comfortable operating the RC car first.
+Unfortunately, I was unable to operate the RC car as I was travelling for break and working on my project and my remote control was somehow lost. I did however run the artemis with the battery and roll it on the car myself to perform a stunt.
 
-_________observations
-Below is a video of my driving the car around ____________
+__here is a drawing of what my car did___
 
-Now I attached my IMU set it up to send data via bluetooth for 5s, performed a "stunt" with the car (lame stunt since I was worried about IMU falling). ___HERE is a video of the stunt with the IMU attached____
-____Here is the plot of that data____
-____observations____
-
-
+__here is the data output___
