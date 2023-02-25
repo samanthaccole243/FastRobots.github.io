@@ -22,4 +22,12 @@ It can be seen above that the data is quite noisy. I ran my RC car next to my fl
 <img width="401" alt="pitch noise and fft" src="https://user-images.githubusercontent.com/89661904/221075351-6a3ed319-18e7-425d-9fb6-588be0504c8b.png">
 <img width="388" alt="roll noise and fft" src="https://user-images.githubusercontent.com/89661904/221075358-43fd4018-ce98-4f63-9b40-76bc4aaecea2.png">
 
-The next part of lab was regarding the gyroscope.
+The next part of lab was regarding the gyroscope. The same process was performed. I measured the data near the RC while it was running and tried to do an fft to see if there was a frequency that I should attempt to filter. Below are my results:
+<img width="397" alt="fft_gryo_pitch" src="https://user-images.githubusercontent.com/89661904/221371203-205344ad-3df0-4237-83f5-0fd9b50a7f70.png">
+<img width="400" alt="fft_gryo_roll" src="https://user-images.githubusercontent.com/89661904/221371206-30c7dae4-b691-425c-bb69-8635b2e1dd27.png">
+<img width="388" alt="fft_gryo_yaw" src="https://user-images.githubusercontent.com/89661904/221371209-7ecf0dfd-da8c-42c3-9674-bdc6d71dca40.png">
+
+I performed an fft the same way I did on the accelerometer data but somehow the fft for the gyro data doesnt even seem like an fft.
+This level of noise informs me I again do not need a filter to "clean" my data.
+
+
