@@ -41,12 +41,16 @@ The Fourth portion of the lab was regarding speeding up data collection. Unlike 
 Lastly, I took the time at the beginning of each void loop and the time at the end of my data calculation which only performs if new data is ready. I then take the difference of these two and print it. I added a flag within the if and else portion so that I did not reset my start time at the beginning of the loop if new data was not yet found. The start time is reset only if data was just collected. You can see the time being collected based on this flag which is set to 1 initially in the setup loop below:
 <img width="150" alt="image" src="https://user-images.githubusercontent.com/89661904/221372128-472debf1-f3d6-485d-a866-e8f32a5e746f.png">
 if new data is not ready, the code enters the else portion of the if statement and data_collected is set to 0. This means as the code runs through the void loop again it will now not reset the start time when checking for new data. Once new data is seen to be ready, the if statement is entered all calculations are made, then the data_collected is set to 1. This means on the next loop the start time will reset since I am now starting the timer for the next measurement.
-Using this method, I collected data every blank__ _______________milliseconds.
+Using this method, I collected data every blank__ _______________milliseconds.___
 
 Next I edit my Lab 2/3 code which sent ToF data over bluetooth in arrays to do the same now with my IMU data. I decided to choose 1 array per data set so that I did not reach memory limits within the artemis. I also thought this was just neater. I did this by just integrating the code from lab 4 so far into the ble_arduino.ide code. I merely copied the setup of the lab 4 ino file to that of the bluetooth file then added my lab 4 file as a command I can send in the bluetooth script. I will not include a photo of this since it is so large and a combination of things discussed previously anyways. 
-Here is a photo of it sending data: ____________expecting things here
+Here is a photo of it sending data: ____________expecting things here___
 
-Now we can try all this out on the car. First I wanted to get familiar with how the car remote control works. _________observations
+Now we can try all this out on the car. First I need a way to power the artemis not connected to my laptop. To do this I soldered the 3.7V 650mAh battery to a different connection piece so I could plug it into the artemis. ___Here is a picture of the battery plugged into the artemis and my beautiful solder job with the heat sink!__
+
+I also wanted to get comfortable operating the RC car first.
+
+_________observations
 Below is a video of my driving the car around ____________
 
 Now I attached my IMU set it up to send data via bluetooth for 5s, performed a "stunt" with the car (lame stunt since I was worried about IMU falling). ___HERE is a video of the stunt with the IMU attached____
