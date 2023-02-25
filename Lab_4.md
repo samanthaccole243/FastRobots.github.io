@@ -30,4 +30,11 @@ The next part of lab was regarding the gyroscope. The same process was performed
 I performed an fft the same way I did on the accelerometer data but somehow the fft for the gyro data doesnt even seem like an fft.
 This level of noise informs me I again do not need a filter to "clean" my data.
 
+The Fourth portion of the lab was regarding speeding up data collection. Unlike lab 3, this data is not set on a loop waiting for new data, it instead uses an if statement to check for data. This is not blocking like the previous code was. This code does however send you to an else that has you delay and print "waiting for new data". Since, I no longer want to wait, I commented out this portion. Now do calculations on the raw data if it is ready otherwise my code runs through the rest of the currently empty void loop. Later I can have other things in the void loop. This fix allows my code to not be "hung" checking for new data. I also commented out all delay statements to speed up the process.
+Lastly, I took the time at the beginning of each void loop and the time at the end of my data calculation which only performs if new data is ready. I then take the difference of these two and print it. I added a flag within the if and else portion so that I did not reset my start time at the beginning of the loop if new data was not yet found. The start time is reset only if data was just collected. You can see the time being collected based on this flag which is set to 1 initially in the setup loop below:
+<img width="150" alt="image" src="https://user-images.githubusercontent.com/89661904/221372128-472debf1-f3d6-485d-a866-e8f32a5e746f.png">
+if new data is not ready, the code enters the else portion of the if statement and data_collected is set to 0. This means as the code runs through the void loop again it will now not reset the start time when checking for new data. Once new data is seen to be ready, the if statement is entered all calculations are made, then the data_collected is set to 1. This means on the next loop the start time will reset since I am now starting the timer for the next measurement.
+Using this method, I collected data every blank_________________milliseconds.
+
+
 
