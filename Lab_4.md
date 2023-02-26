@@ -45,13 +45,19 @@ if new data is not ready, the code enters the else portion of the if statement a
 Using this method, I collected data every blank 2.45 milliseconds.
 
 Next I edit my Lab 2/3 code which sent ToF data over bluetooth in arrays to do the same now with my IMU data. I decided to choose 1 array per data set so that I did not reach memory limits within the artemis. I also thought this was just neater. I did this by just integrating the code from lab 4 so far into the ble_arduino.ide code. I merely copied the setup of the lab 4 ino file to that of the bluetooth file then added my lab 4 file as a command I can send in the bluetooth script. I will not include a photo of this since it is so large and a combination of things discussed previously anyways. 
-Here is a photo of it sending data: ____________expecting things here___
+Here are photos of it sending data:
+<img width="191" alt="bluetooth working 8" src="https://user-images.githubusercontent.com/89661904/221387188-bf216742-c05c-4a20-bc7b-cb9e148635e7.png">
+<img width="422" alt="bluetooth working 1" src="https://user-images.githubusercontent.com/89661904/221387189-eb58c726-d61f-4641-ad9d-be646bfec1fe.png">
+<img width="190" alt="bluetooth working 2" src="https://user-images.githubusercontent.com/89661904/221387190-3b45e0b6-96e0-4687-86b0-033ed04c6a6c.png">
+<img width="186" alt="bluetooth working 3" src="https://user-images.githubusercontent.com/89661904/221387191-1c6b2e90-6187-4384-b797-0b62d660f095.png">
+<img width="181" alt="bluetooth working 4" src="https://user-images.githubusercontent.com/89661904/221387192-99b68846-3d7b-4b4f-a5a4-39ca4ac8a443.png">
+<img width="196" alt="bluetooth working 5" src="https://user-images.githubusercontent.com/89661904/221387193-7e058103-b409-46a9-bf02-d36cb616ce83.png">
+<img width="186" alt="bluetooth working 6" src="https://user-images.githubusercontent.com/89661904/221387194-e87f453d-fa77-431c-b1a1-a6c57154f370.png">
+<img width="219" alt="bluetooth working 7" src="https://user-images.githubusercontent.com/89661904/221387195-e182a27b-2a6c-4ce1-bdf2-9f739a82683d.png">
 
-Now we can try all this out on the car. First I need a way to power the artemis not connected to my laptop. To do this I soldered the 3.7V 650mAh battery to a different connection piece so I could plug it into the artemis.
-___Here is a picture of the battery plugged into the artemis and my beautiful solder job with the heat sink!__
+Now we can try all this out on the car. First I need a way to power the artemis not connected to my laptop. To do this I soldered the 3.7V 650mAh battery to a different connection piece so I could plug it into the artemis. Here is a picture of the battery soldered to the connector with the heat sink!
 
-Unfortunately, I was unable to operate the RC car as I was travelling for break and working on my project and my remote control was somehow lost. I did however run the artemis with the battery and roll it on the car myself to perform a stunt.
+![IMG_7001](https://user-images.githubusercontent.com/89661904/221387345-901052cc-e673-4ff9-9f2e-336c6509e176.jpg)
 
-__here is a drawing of what my car did___
 
-__here is the data output___
+Unfortunately, I was unable to operate the RC car as I was travelling for break and working on my project and my remote control was somehow lost. 
