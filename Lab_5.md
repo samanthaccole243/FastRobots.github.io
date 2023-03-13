@@ -28,11 +28,15 @@ A video of both my wheels moving forward at the 150 pwm speed set in the code, c
 
 
 https://user-images.githubusercontent.com/89661904/224584683-33e7cd2c-b05d-4ee1-aefa-7a16e452f2b4.mp4
-
+or
+https://youtube.com/shorts/ePWHuilji8k
 
 Next, I decided to explore the lower limit of my pwm. First I did this from stop. For the MENG task, I also did this while it was moving, since it will require more speed to start moving from stop then to just continue moving. To test the pwm lower limit from stop I simply kept lowering the pwm to the motors slowly until they would no longer start spinning at that speed. This number was approxiamately 35 for left side and 40 for the right. To figure out the lower limit while already moving, I started off with a pwm I knew would get the motors moving (50), then in the code, I continuously lowered it, and printed the pwm to the serial monitor, I ran the code and took note at which pwm the motors stopped spinning. The right motor significantly struggles at 30 and completely ceases all activity at 25. The left motor significantly slowed at 25 and ceased all activity at 20. A video of this can be seen here: 
 
 https://user-images.githubusercontent.com/89661904/224584625-d68e0423-f5a6-480c-86e8-41cd83d59c12.MOV
+or
+https://www.youtube.com/shorts/BYAD6XEPdB8
+
 
 As well as the serial monitor output here:
 <img width="196" alt="pwm serial monitor" src="https://user-images.githubusercontent.com/89661904/224583214-d323b57f-1152-494a-a50f-9e396ea7f3fe.png">
@@ -41,10 +45,9 @@ For the MENG task, I was also asked to consider the effect the frequency for ana
 Note I did both of these while the car was propped on a box, when the car is moving on the ground, in reality, my lower limit would be higher since there would be more resistance on the floor. This resistance would also change depending on the floor surface. I did a majority of the software portion of this lab at home, I have carpeting. The lab has linoleum flooring. These different materials would cause the motors to have different pwm lower limits.
 The last part of this lab was to do a little course of my choice on the robot untethered. I decided my course was to go forward slowly, stop, turn right, turn left, then back up. I have a very thin hallway so I did kind of hit a wall doing this, but all in all it went well. A video of this taking place untethered can be seen here.
 
-
-
 https://user-images.githubusercontent.com/89661904/224584779-c95b071f-e792-4c67-ad98-b3a6e35bf80d.MOV
-
+or
+https://youtu.be/ev23NiglrYY
 
 
 
