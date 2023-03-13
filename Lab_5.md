@@ -26,7 +26,9 @@ I also rewrote my code to include both motors, as can be seen here:
 
 A video of both my wheels moving forward at the 150 pwm speed set in the code, can be seen here: 
 
-<iframe width="560" height="315" src="[https://youtube.com/embed/-FgUyuQ9n4c?feature=share](https://youtube.com/shorts/ePWHuilji8k)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/embed/ePWHuilji8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 Next, I decided to explore the lower limit of my pwm. First I did this from stop. For the MENG task, I also did this while it was moving, since it will require more speed to start moving from stop then to just continue moving. To test the pwm lower limit from stop I simply kept lowering the pwm to the motors slowly until they would no longer start spinning at that speed. This number was approxiamately 35 for left side and 40 for the right. To figure out the lower limit while already moving, I started off with a pwm I knew would get the motors moving (50), then in the code, I continuously lowered it, and printed the pwm to the serial monitor, I ran the code and took note at which pwm the motors stopped spinning. The right motor significantly struggles at 30 and completely ceases all activity at 25. The left motor significantly slowed at 25 and ceased all activity at 20. A video of this can be seen here: ___video here__. As well as the serial monitor output here:
 <img width="196" alt="pwm serial monitor" src="https://user-images.githubusercontent.com/89661904/224583214-d323b57f-1152-494a-a50f-9e396ea7f3fe.png">
