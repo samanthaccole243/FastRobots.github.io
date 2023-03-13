@@ -25,13 +25,14 @@ I also rewrote my code to include both motors, as can be seen here:
 <img width="317" alt="pwm two motor" src="https://user-images.githubusercontent.com/89661904/224583171-e13eaa35-aa57-4a6a-965a-cf5f0460cf9d.png">
 
 A video of both my wheels moving forward at the 150 pwm speed set in the code, can be seen here: 
-
-<iframe width="560" height="315" src="https://youtube.com/embed/ePWHuilji8k?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
+https://youtube.com/shorts/ePWHuilji8k?feature=share
 
 Next, I decided to explore the lower limit of my pwm. First I did this from stop. For the MENG task, I also did this while it was moving, since it will require more speed to start moving from stop then to just continue moving. To test the pwm lower limit from stop I simply kept lowering the pwm to the motors slowly until they would no longer start spinning at that speed. This number was approxiamately 35 for left side and 40 for the right. To figure out the lower limit while already moving, I started off with a pwm I knew would get the motors moving (50), then in the code, I continuously lowered it, and printed the pwm to the serial monitor, I ran the code and took note at which pwm the motors stopped spinning. The right motor significantly struggles at 30 and completely ceases all activity at 25. The left motor significantly slowed at 25 and ceased all activity at 20. A video of this can be seen here: ___video here__. As well as the serial monitor output here:
 <img width="196" alt="pwm serial monitor" src="https://user-images.githubusercontent.com/89661904/224583214-d323b57f-1152-494a-a50f-9e396ea7f3fe.png">
+
+https://user-images.githubusercontent.com/89661904/224584625-d68e0423-f5a6-480c-86e8-41cd83d59c12.MOV
+
+
 
 For the MENG task, I was also asked to consider the effect the frequency for analogWrite to the motor has. Technically analogwrite only has one set frequency for this board, but we could mannually write out a pwm code. This is unnecessary as the current frequency is enough to power the motors. Writing manually allows more flexibility but can actually cause jiteriness when interupts are used. The analogWrite functipn will have no jitters even when interrupted.
 Note I did both of these while the car was propped on a box, when the car is moving on the ground, in reality, my lower limit would be higher since there would be more resistance on the floor. This resistance would also change depending on the floor surface. I did a majority of the software portion of this lab at home, I have carpeting. The lab has linoleum flooring. These different materials would cause the motors to have different pwm lower limits.
