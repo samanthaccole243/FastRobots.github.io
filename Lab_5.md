@@ -6,7 +6,7 @@ This means short pulses that in theory average out to create a constant speed. W
 you can see some pins have tildas next to them. In the documentation, it is made clear that this is to indicate pins capable 
 of operating pwm signals. I chose pins A0, A1, A2, and A3, for my two motor drivers respectively. Each motor driver needs to be 
 powered from Vin (from battery) and grounded. Each motor driver also has two inputs and two outputs. Technically there are four 
-pins for the inputs and four pins for the outputs on the motor driver, but we shorted them to creat two input pins and two 
+pins for the inputs and four pins for the outputs on the motor driver, but we shorted them to create two input pins and two 
 output pins. This can be seen here:  __Add photo here__
 The first task is to finish the wiring of only one motor driver than test it to see it is working. I took one motor driver and shorted the two inner inputs to eachother with one long wire sticking out, then I shorted the outer inputs to each other with another long wire. I did the same with the outputs. I then soldered one input to A2 on the Artemis and the other input to A3 on the artemis. I then wrote a very small PWM code just initializing the pins as outputs and sending a pwm signal to them. Here is a photo of that code: ____Add photo here___ 
 As you can see I made one motor zero, and the other one 150. Technically the top speed is 255, but I chose to use 150 for testing purposes since I did not believe the top speed was necessary.
