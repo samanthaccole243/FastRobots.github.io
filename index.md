@@ -12,6 +12,7 @@ Hello! Welcome to my page.
  ![IMG_5954](https://user-images.githubusercontent.com/89661904/214730717-72c56a1a-c6c4-4ead-9800-c2e10270217f.jpg)
 ![IMG_6797](https://user-images.githubusercontent.com/89661904/218489172-56bed31f-e0f4-4304-a221-d0a854ffd7d4.jpg)
 ![IMG_6752](https://user-images.githubusercontent.com/89661904/218489191-92a39a97-ee47-4088-87af-5aa15dd23943.jpg)
+![IMG_7116](https://user-images.githubusercontent.com/89661904/224583416-53fe4bf9-7a6c-4502-9474-79bfa5fcbdc1.jpg)
 
 
 ## Links to Lab descriptions!
@@ -23,3 +24,5 @@ Hello! Welcome to my page.
 [Lab 3](https://samanthaccole243.github.io/FastRobots.github.io/Lab_3.html)
 
 [Lab 4](https://samanthaccole243.github.io/FastRobots.github.io/Lab_4.html)
+
+[Lab 5](https://samanthaccole243.github.io/FastRobots.github.io/Lab_5.html)
