@@ -6,7 +6,8 @@ I wrote and tested the PID on a non-bluetooth code. I used the PID formula as di
 
 to choose my constant values for PI I first started with the Kp value and basically saw what did not cause my robot to go so fast that it hit the wall before seeing the distance. To choose my Ki value, I saw what value reduced oscillations the most.
 Here are the parameters I ended up with: 
-<img width="310" alt="parameters" src="https://user-images.githubusercontent.com/89661904/227099301-92c6bce5-72fc-46d1-8271-b0f39cabd13d.png">
+<img width="122" alt="new_param" src="https://user-images.githubusercontent.com/89661904/227827120-44fda3a3-991f-43d3-b2b6-1c2f360602ec.png">
+
 
 You can also see in my code I attempted to use a wind-up pretection. This means if the error stays the same for too long my I term will not indefinitely build up or 'wind up' unnecessarily affecting the output in the same way. To protect against this, I created a limit for my i term, if it goes over the limit it gets returned back to that limit. This prevents the I term from increasing indefinitely.
 To make sure the data sending works I implemented and tested sending IMU and TOF data over the bluetooth for a period of time.
@@ -27,8 +28,11 @@ My windup control can be seen in the photo of my PID function above and is seen 
 https://user-images.githubusercontent.com/89661904/227099384-aa4d14c1-f7ff-4cb8-a8e5-000152406462.MOV
 
 
+I also took all the data I sent over in the form of graphs. Here is a graph of the ToF data vs time,
+Here is a graph of the Motor input vs time,To make this graph I also had the motor input sent over bluetooth.
+I also sent over my I and P terms for debugging. These graphs can also be seen.
+I did two graphs for a bit different scenarios found here:
+<img width="827" alt="graphs t1" src="https://user-images.githubusercontent.com/89661904/227827350-f6635cad-bb3d-494f-9437-5222639cd792.png">
+<img width="838" alt="graphs t2" src="https://user-images.githubusercontent.com/89661904/227827359-22fcb66a-9eeb-470f-a860-f73478025ae6.png">
 
-ToF sensor wires broke (yes simultaneously on both ToF sensors) when I went to record these values. so no graphs yet - must fix hardware! :(
-I also took all the data I sent over in the form of graphs. Here is a graph of the ToF data vs time: ___Graph here___
-Here is a graph of the Motor input vs time __graph here__ To make this graph I also had the motor input sent over bluetooth.
-I also sent over my I and P terms for debugging. These graphs can be seen here: __2 graphs here___
+
