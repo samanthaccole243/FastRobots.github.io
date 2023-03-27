@@ -27,12 +27,21 @@ My windup control can be seen in the photo of my PID function above and is seen 
 
 https://user-images.githubusercontent.com/89661904/227099384-aa4d14c1-f7ff-4cb8-a8e5-000152406462.MOV
 
+Here is a third surface:
+
+
+https://user-images.githubusercontent.com/89661904/227827687-21f6f4ef-e66d-459d-8c7e-6bb3215a5218.MOV
+
 
 I also took all the data I sent over in the form of graphs. Here is a graph of the ToF data vs time,
 Here is a graph of the Motor input vs time,To make this graph I also had the motor input sent over bluetooth.
 I also sent over my I and P terms for debugging. These graphs can also be seen.
 I did two graphs for a bit different scenarios found here:
+First set of data:
 <img width="827" alt="graphs t1" src="https://user-images.githubusercontent.com/89661904/227827350-f6635cad-bb3d-494f-9437-5222639cd792.png">
+Second set:
 <img width="838" alt="graphs t2" src="https://user-images.githubusercontent.com/89661904/227827359-22fcb66a-9eeb-470f-a860-f73478025ae6.png">
 
+
+It is possible my kp value is too high for smooth surfaces, but my battery was just getting low... we will see.
 
