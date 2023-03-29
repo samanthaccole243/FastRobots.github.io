@@ -26,3 +26,5 @@ Hello! Welcome to my page.
 [Lab 4](https://samanthaccole243.github.io/FastRobots.github.io/Lab_4.html)
 
 [Lab 5](https://samanthaccole243.github.io/FastRobots.github.io/Lab_5.html)
+
+[Lab 6](https://samanthaccole243.github.io/FastRobots.github.io/Lab_6.html)
