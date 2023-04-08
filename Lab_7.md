@@ -51,8 +51,7 @@ Next, we need to find the 90% rise time:
 
 To solve for this, I took two of the trials where my distance measuring seemed most smooth (no excessive spikes in the movement towards the wall). Here was my process:
 ![IMG_1173](https://user-images.githubusercontent.com/89661904/230702484-07cfc534-c7fc-47e1-8f59-1d47f2168e30.jpg)
-
-![IMG_1172](https://user-images.githubusercontent.com/89661904/230702489-7287e19a-c7ea-47ce-96ae-987032056797.jpg)
+![IMG_1176](https://user-images.githubusercontent.com/89661904/230702605-58b98ca6-f777-4108-bf75-f90379cf4d7a.jpg)
 
 I then averaged the time I got for both of these (.9 and 1.1) and ended up with an estimated 90% rise time of 1 second.
 I then used this to solve for mass:
