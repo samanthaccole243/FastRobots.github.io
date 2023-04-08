@@ -63,5 +63,44 @@ Now I could make the A and B matrices for the Kalman filter:
 #
 <img width="222" alt="image" src="https://user-images.githubusercontent.com/89661904/230702534-e945ffbb-afd8-4730-a4d8-65473a5d5cf0.png">
 
+These can be seen rewritten in the python code below with the C matrix as given in the lab handout.
 
+<img width="256" alt="image" src="https://user-images.githubusercontent.com/89661904/230738429-73ddebd2-78e3-4dd7-af54-8521ce19ffba.png">
 
+The next part of lab asked us to Discretize our A and B matrices and evaluate the process and sensor noise. I can be seen discretizing the matrices here:
+<img width="201" alt="image" src="https://user-images.githubusercontent.com/89661904/230738780-226439c7-19cc-4e5a-a792-abbf625c0724.png">
+I used dt to be the average amount of time taken in between sensor readings from the Tof. This came out to be 0.13299999999999992 seconds.
+I then account for sensor noise here:
+<img width="248" alt="image" src="https://user-images.githubusercontent.com/89661904/230738866-b1693fe6-52d8-472b-9798-b3b86339851c.png">
+
+I first set all the covariances to 10 since they represent trust in the sensors (sig1 and sig2) or trust in the model (sig3).
+
+Next I implement the Kalman filter in Jupyter Lab. We are given the kalman filter in the handout, but I just made slight edits to match my variable names. The given function can be seen here:
+<img width="385" alt="image" src="https://user-images.githubusercontent.com/89661904/230738923-500e7dad-cc85-4382-97e3-2c5b82728f03.png">
+
+next I ran the code with my data from a run trial earlier. This can be seen here
+<img width="219" alt="image" src="https://user-images.githubusercontent.com/89661904/230739079-9b5087d7-0619-4b01-9b64-172a84f8a0d8.png">
+
+I then plotted the results as seen here:
+<img width="211" alt="image" src="https://user-images.githubusercontent.com/89661904/230739095-f657e0c7-a037-4c87-a2d2-95dddb91dca2.png">
+
+I did this multiple times just to messaorund with the covariances and see how it changes. Below are all of my results:
+# sig1=10, sig2=10, sig3=10:
+<img width="437" alt="Lab7_kfvsToF_sig101010" src="https://user-images.githubusercontent.com/89661904/230739148-e59524e1-3007-450e-acfa-d53da093487b.png">
+
+# sig1=10, sig2=10, sig3=20:
+<img width="424" alt="Lab7_kfvsToF_sig101020" src="https://user-images.githubusercontent.com/89661904/230739160-5d4cd45c-f0ca-4681-b394-9ba7aca7cf48.png">
+
+# sig1=100, sig2=10, sig3=20:
+<img width="417" alt="Lab7_kfvsToF_sig1001020" src="https://user-images.githubusercontent.com/89661904/230739164-b6f8c8d8-880a-4824-a63d-b210329d9755.png">
+
+# sig1=10, sig2=100, sig3=20:
+<img width="422" alt="Lab7_kfvsToF_sig1010020" src="https://user-images.githubusercontent.com/89661904/230739180-2a1c6788-2647-4a58-a411-9f05dd97c3c6.png">
+
+# sig1=200, sig2=10, sig3=20:
+<img width="434" alt="Lab7_kfvsToF_sig2001020" src="https://user-images.githubusercontent.com/89661904/230739190-fa418fae-676f-45c6-a4ec-b00ba6db2ca8.png">
+
+# sig1=200, sig2=10, sig3=10:
+<img width="432" alt="Lab7_kfvsToF_sig2001010" src="https://user-images.githubusercontent.com/89661904/230739195-0b8442c6-f2ac-4e44-bbd5-17d7a29a9138.png">
+
+As you can see as the sig 1 value increases the plot matches the data more since we are placing more trust on the sensor values. As the sigma 3 increases my data gets more far off - placing less trust on the sensor values. Unfortunately the noisiness when it is far off, and how off it is makes me think my kalma filter model is pretty bad and maybe my initial measurements were not correct or effective for the filter purposes.
