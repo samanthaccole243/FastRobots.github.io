@@ -24,12 +24,15 @@ To first set up the kalman filter, I took my robot and drove it at a high speed 
 <img width="519" alt="velgraph_t4_c" src="https://user-images.githubusercontent.com/89661904/230701605-65e9e24b-d480-45f2-af0b-811156a397ae.png">
 
 I used bluetooth to send the car towards the wall and take the ToF measurements then send them to jupyter lab. I used a notification handler to save all the data in arrays. I then used matplotlib to make the plots. The notification handler can be seen here:
+#
 <img width="378" alt="image" src="https://user-images.githubusercontent.com/89661904/230701696-af622116-9ed5-4c84-a0be-85652d9d3e37.png">
 I have some print statements commented and uncommented throughout for debugging purposes as I was writing the notification handler.
 The velocity calculation can be seen here:
+#
 <img width="179" alt="image" src="https://user-images.githubusercontent.com/89661904/230701720-d0ab113a-90a6-47c7-999c-eac483a55b66.png">
 
 How I plotted the three graphs can be seen here:
+#
 <img width="136" alt="image" src="https://user-images.githubusercontent.com/89661904/230701735-b443bfd9-7876-47bd-baa6-8c00ea692347.png">
 
 <img width="157" alt="image" src="https://user-images.githubusercontent.com/89661904/230701750-fc5e7a9c-a84c-4492-a3ad-ff4f05e702af.png">
