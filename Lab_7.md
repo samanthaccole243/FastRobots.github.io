@@ -40,3 +40,25 @@ How I plotted the three graphs can be seen here:
 <img width="142" alt="image" src="https://user-images.githubusercontent.com/89661904/230701784-3223fdc0-a42a-4444-867f-cdf6f387b4ad.png">
 
 I append a zero in the velocity since How I calculate the data makes me have one less data point compared to time.
+
+To continue with the Kalman filter calculations I moved to my ipad. I took what seemed to be the average steady state of the velocity at 1300mm/s. This is the equation for drag:
+<img width="88" alt="image" src="https://user-images.githubusercontent.com/89661904/230702310-44aec496-9f6d-44c8-a0a9-f9497bfc161a.png">
+We assume u to be 1 and as previously stated the steady state velocity is 1300mm/s. So,
+<img width="125" alt="image" src="https://user-images.githubusercontent.com/89661904/230702339-f93c40e6-b502-4bbc-b00f-af9db0a1d13e.png">
+
+Next, we need to find the 90% rise time:
+<img width="260" alt="image" src="https://user-images.githubusercontent.com/89661904/230702465-93d1e6e9-f293-4adb-b6f6-7f1b24f15d01.png">
+
+To solve for this, I took two of the trials where my distance measuring seemed most smooth (no excessive spikes in the movement towards the wall). Here was my process:
+![IMG_1173](https://user-images.githubusercontent.com/89661904/230702484-07cfc534-c7fc-47e1-8f59-1d47f2168e30.jpg)
+
+![IMG_1172](https://user-images.githubusercontent.com/89661904/230702489-7287e19a-c7ea-47ce-96ae-987032056797.jpg)
+
+I then averaged the time I got for both of these (.9 and 1.1) and ended up with an estimated 90% rise time of 1 second.
+I then used this to solve for mass:
+<img width="234" alt="image" src="https://user-images.githubusercontent.com/89661904/230702514-4a8cf846-79b3-40f7-9cce-436eec7d75b4.png">
+
+Now I could make the A and B matrices for the Kalman filter:
+<img width="222" alt="image" src="https://user-images.githubusercontent.com/89661904/230702534-e945ffbb-afd8-4730-a4d8-65473a5d5cf0.png">
+
+
