@@ -13,7 +13,7 @@ To first set up the kalman filter, I took my robot and drove it at a high speed 
 <img width="457" alt="distgraph_t2" src="https://user-images.githubusercontent.com/89661904/230701578-1120c0ef-b359-4e8e-be9a-e214a0075a56.png">
 <img width="488" alt="velgraph_t2" src="https://user-images.githubusercontent.com/89661904/230701583-1f326f44-a869-4beb-9470-493b62b2e9ad.png">
 
-## Trail 3:
+## Trial 3:
 <img width="495" alt="motin_t3" src="https://user-images.githubusercontent.com/89661904/230701590-88e8242c-ec22-43f5-be4c-a573dbe24cc6.png">
 <img width="503" alt="distgraph_t3" src="https://user-images.githubusercontent.com/89661904/230701585-6d31d2c4-bf56-472a-b468-a6c99df28ac6.png">
 <img width="487" alt="velgraph_t3" src="https://user-images.githubusercontent.com/89661904/230701595-08ccfe97-f51a-4088-b645-7c109fadc421.png">
