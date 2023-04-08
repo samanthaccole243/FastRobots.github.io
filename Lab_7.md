@@ -1,6 +1,6 @@
 ### Lab 7
 
-The majority of this lab is about setting up and implementing a Kalman filter. Because the kalman filter can be quite finicky for students who are a bit tight on time, we can solve all the necessary variables for the Kalman filter then take a shortcut. This shortcut involves extrapolating the ToF sensor data to 'speed up' sampling time for the ToF by estimating the distances in between each sample response.
+The majority of this lab is about setting up and implementing a Kalman filter. The Kalman filter is meant to solve the issue of the slow ToF sampling by creating accurate estimates of the in between states. Because the kalman filter can be quite finicky for students who are a bit tight on time, we can solve all the necessary variables for the Kalman filter then take a shortcut. This shortcut involves extrapolating the ToF sensor data to 'speed up' sampling time for the ToF by estimating the distances in between each sample response using the slope. This option is a less accurate however is much faster to set up since there are not variables that need to be tuned. I solve all of the variables for the Kalman below and then eventually set upt the extrapolation.
 
 To first set up the kalman filter, I took my robot and drove it at a high speed from my previous PID lab (80). I then faced it towards a wall anywhere from 1000 to 1400 milimeters away from the way. I had the ToF sensor measuring data and just drove towards the wall for a couple seconds. I kept looking to find a steady state velocity from this, but unfortunately that was not happening for me. I did many trials. Below are the graphs from four different trials. The Graphs show the motor input vs seconds, the ToF distance in milimeters vs seconds, and the velocity vs seconds. I calculated the Velocity using the distance in mm vs time in seconds data. 
 ## Trial 1:
@@ -62,5 +62,6 @@ I then used this to solve for mass:
 Now I could make the A and B matrices for the Kalman filter:
 #
 <img width="222" alt="image" src="https://user-images.githubusercontent.com/89661904/230702534-e945ffbb-afd8-4730-a4d8-65473a5d5cf0.png">
+
 
 
