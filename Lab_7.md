@@ -56,6 +56,7 @@ To solve for this, I took two of the trials where my distance measuring seemed m
 I then averaged the time I got for both of these (.9 and 1.1) and ended up with an estimated 90% rise time of 1 second.
 I then used this to solve for mass:
 <img width="234" alt="image" src="https://user-images.githubusercontent.com/89661904/230702514-4a8cf846-79b3-40f7-9cce-436eec7d75b4.png">
+*
 
 Now I could make the A and B matrices for the Kalman filter:
 <img width="222" alt="image" src="https://user-images.githubusercontent.com/89661904/230702534-e945ffbb-afd8-4730-a4d8-65473a5d5cf0.png">
