@@ -115,17 +115,22 @@ The next portion of this lab is the extrapolation. Once demonstrated an understa
 after this code I just send the stores arrays
 where the time is 50 cells, the tof values are 50 cells, and the estimates are 100.
 I then wrote a code in jupyter lab to handle the notifications sent individually. This is seen here:
+#
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/89661904/230791042-c3d2e335-0b13-4efe-bb25-6100f9173a69.png">
 
 I then wrote code to send the command, edit the seconds to 100 cells for the estimate plotting, and then plot both the Tof and the Estimates on a graph vs time. The tof is plotted as dots and the estimates are plotted in a line.
 This code can be seen here:
+#
 <img width="465" alt="image" src="https://user-images.githubusercontent.com/89661904/230791102-e8fdf360-6c8b-4e2f-ae8e-2cac91de2196.png">
 
 The video of my robot running this code can be seen vial these youtube links below:
+#
 https://www.youtube.com/shorts/Q1t3B-JW4N4
+#
 https://www.youtube.com/shorts/X3HxCu4QG5Y
+#
 https://www.youtube.com/shorts/wjbWt--EBpQ
-
+#
 
 I ran a few trials. Two of the graphs are below:
 
