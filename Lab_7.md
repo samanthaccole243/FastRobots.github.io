@@ -121,7 +121,10 @@ I then wrote code to send the command, edit the seconds to 100 cells for the est
 This code can be seen here:
 <img width="465" alt="image" src="https://user-images.githubusercontent.com/89661904/230791102-e8fdf360-6c8b-4e2f-ae8e-2cac91de2196.png">
 
-The video of my robot running this code can be seen here:
+The video of my robot running this code can be seen vial these youtube links below:
+https://www.youtube.com/shorts/Q1t3B-JW4N4
+https://www.youtube.com/shorts/X3HxCu4QG5Y
+https://www.youtube.com/shorts/wjbWt--EBpQ
 
 
 I ran a few trials. Two of the graphs are below:
@@ -129,3 +132,5 @@ I ran a few trials. Two of the graphs are below:
 <img width="499" alt="ToFvsextrap" src="https://user-images.githubusercontent.com/89661904/230791129-2becc457-14f2-42a8-b9c7-523e614b8102.png">
 
 <img width="483" alt="ToFvsextrap2" src="https://user-images.githubusercontent.com/89661904/230791132-f7638604-2072-44f5-83cc-cb77a8f35e1a.png">
+
+As you can see and here in the video and see in the graphs, the movement is a bit jumpy. I believe that is due to some jumpiness from the tof, which causes jumpiness from the estimates. Also if they dont agree on a distance range from one of my categories in the if statement that can also cause jultiness. I could widen the range to fix the range but then I wouldnt back up to 1 ft as accurately. Also I do overshoot quite a bit, but there is nothing other than my code slowing the robot down as it reaches 1 ft.
