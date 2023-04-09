@@ -104,3 +104,28 @@ I did this multiple times just to messaorund with the covariances and see how it
 <img width="432" alt="Lab7_kfvsToF_sig2001010" src="https://user-images.githubusercontent.com/89661904/230739195-0b8442c6-f2ac-4e44-bbd5-17d7a29a9138.png">
 
 As you can see as the sig 1 value increases the plot matches the data more since we are placing more trust on the sensor values. As the sigma 3 increases my data gets more far off - placing less trust on the sensor values. Unfortunately the noisiness when it is far off, and how off it is makes me think my kalma filter model is pretty bad and maybe my initial measurements were not correct or effective for the filter purposes.
+
+#
+The next portion of this lab is the extrapolation. Once demonstrated an understanding of the Kalman Filter and played around a bit with the covariances. I wrote code in the arduino ide. I first cellect the distances from the sensor in an array tof. I then have ann array estimate which estimates the next point that would be read by the ToF if it were fast enough. The estimate array logs the tof entries and the next estimate and then the tof entry again and so on. This code can be seen written here:
+<img width="597" alt="image" src="https://user-images.githubusercontent.com/89661904/230790897-843c2d62-7927-4fbf-afce-a52cab39a489.png">
+<img width="418" alt="image" src="https://user-images.githubusercontent.com/89661904/230790911-ac9b3791-a4f3-442e-a12b-b0d20d0d9006.png">
+<img width="586" alt="image" src="https://user-images.githubusercontent.com/89661904/230790924-72c9d17b-dc27-4097-a591-58ee15f49259.png">
+<img width="409" alt="image" src="https://user-images.githubusercontent.com/89661904/230790938-0f1f8a54-e5f4-4923-80fc-d9d1d4d73bf9.png">
+
+after this code I just send the stores arrays
+where the time is 50 cells, the tof values are 50 cells, and the estimates are 100.
+I then wrote a code in jupyter lab to handle the notifications sent individually. This is seen here:
+<img width="464" alt="image" src="https://user-images.githubusercontent.com/89661904/230791042-c3d2e335-0b13-4efe-bb25-6100f9173a69.png">
+
+I then wrote code to send the command, edit the seconds to 100 cells for the estimate plotting, and then plot both the Tof and the Estimates on a graph vs time. The tof is plotted as dots and the estimates are plotted in a line.
+This code can be seen here:
+<img width="465" alt="image" src="https://user-images.githubusercontent.com/89661904/230791102-e8fdf360-6c8b-4e2f-ae8e-2cac91de2196.png">
+
+The video of my robot running this code can be seen here:
+
+
+I ran a few trials. Two of the graphs are below:
+
+<img width="499" alt="ToFvsextrap" src="https://user-images.githubusercontent.com/89661904/230791129-2becc457-14f2-42a8-b9c7-523e614b8102.png">
+
+<img width="483" alt="ToFvsextrap2" src="https://user-images.githubusercontent.com/89661904/230791132-f7638604-2072-44f5-83cc-cb77a8f35e1a.png">
