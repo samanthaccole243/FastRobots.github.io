@@ -8,6 +8,7 @@ This code can be seen here:
 <img width="498" alt="image" src="https://user-images.githubusercontent.com/89661904/232555288-43f884b4-00eb-494b-80be-b1657996d62f.png">
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/89661904/232555311-5fd2e98b-09e7-493f-b486-53f289ba6cdf.png">
 
+This code does not include heading back after the flip since I was still working on getting that down.
 I have spent quite a bit of time debugging because it seems as though my motors change functioning every like 1-2 runs. This makes it very hard to keep up with. Unfortunately, I am at the point where I have replaced and re-done a large amount of circuitry and components, and I have the same issue the car started with before then. The car moves really slow, and one of the motors seems to move much much slower than the other - often times not moving at all. If I physically hold the running motors wheels, the other motor begins to run. The course staff and I have not come up with a solution to this as of yet. A video of the closest I came to a flip before my robot became less functional can be seen here. 
 
 
