@@ -15,6 +15,7 @@ https://youtube.com/shorts/_MDmfZA5O28?feature=share
 
 https://user-images.githubusercontent.com/89661904/232557193-edd57b2d-63cc-4403-8aef-e34e01b643da.MOV
 
+copy the above link in you url bar to download the movie.
 
 The data for that run can be seen here:
 The blue dots are the ToF readings and he orange line is my extrapolation estimates.
