@@ -16,5 +16,6 @@ https://user-images.githubusercontent.com/89661904/232557193-edd57b2d-63cc-4403-
 
 
 The data for that run can be seen here:
+The blue dots are the ToF readings and he orange line is my extrapolation estimates.
 ![image](https://user-images.githubusercontent.com/89661904/232556216-a3bf34d7-50d1-4a73-8e87-c7d6c425ab3b.png)
 
