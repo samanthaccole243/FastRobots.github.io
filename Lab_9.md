@@ -51,7 +51,7 @@ I can be seen calling them and offsetting them all together in blue here:
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/89661904/233534806-6b48bfc3-2587-427b-9e54-535203765791.png">
 
 Before I show the blue plot, I am going to show the plot where they are all different colors, so it is clear which points are coming from which set.
-For the plot below, p5_n3_t1 is plotted in blue, p5_n3_t2 is plotted in cyan.
+For the plot below, p5_n3_t1 is plotted in blue, p5_n3_t2 is plotted in cyan. n3_n2_t1 is plotted in red, n3_n2_t2 is plotted in magenta. p5_p3_t1 is plotted in yellow. p5_p3_t2 is plotted in orange. zp3_t1 is in black, while zp3_t2 is in grey.
 
 ![image](https://user-images.githubusercontent.com/89661904/233534883-c235bddb-16b7-44a5-8c83-d96dfca0b49c.png)
 
