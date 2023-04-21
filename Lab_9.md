@@ -17,8 +17,7 @@ I had a notification handler on the python side to handle the incoming data. Thi
  <img width="222" alt="image" src="https://user-images.githubusercontent.com/89661904/233532732-b5214116-df51-41d5-9b0e-8233d4b55d20.png">
 
 My robot would then perform a slowly incremented turn seen here:
-
-___Video here___
+[___Video here___](https://youtube.com/shorts/R6BPrgYfrcI?feature=share)
 
 From this video I did cut down the time of movement and the overturn. Because my robot differed a bit how many increments it took to rotate 360 degrees due to mechanical instability I did decide to leave in a slight over rotation which can be seen in all plots below. Next it was time to test this lady in pink robot out on the taped sections in the room. To graph each location on polar plots, I had to ater the deg of the yaw to radians, which you can see being done in the notification handler above. I decided to both graph a line and the actual point dots for more information on these plots. I also added an adjustment term to rotate each reading since the robot has no ide what degree it actually started at only where it has moved from then. This python code used for ploting can beseen here:
 <img width="274" alt="image" src="https://user-images.githubusercontent.com/89661904/233534507-5de8a6aa-cfcd-4b09-92db-f5b577701777.png">
@@ -55,5 +54,7 @@ For the plot below, p5_n3_t1 is plotted in blue, p5_n3_t2 is plotted in cyan. n3
 
 ![image](https://user-images.githubusercontent.com/89661904/233534883-c235bddb-16b7-44a5-8c83-d96dfca0b49c.png)
 
+The photo of the data all in blue and outlined with the relative shape of the room can be seen below:
+![IMG_1196](https://user-images.githubusercontent.com/89661904/233537140-0f1e95c3-aab7-4f73-a0fc-fcd6da4fd4f5.jpg)
 
 
