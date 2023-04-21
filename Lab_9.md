@@ -43,5 +43,5 @@ Here are the polar plots for zero, positive three:
 
 ![image](https://user-images.githubusercontent.com/89661904/233534459-dc818184-52d4-4639-ae13-ad9bc889043e.png)
 
-
+For each of these trials and locations, I also saved the data under different names in jupyter.
  
