@@ -47,6 +47,7 @@ For each of these trials and locations, I also saved the data under different na
  <img width="609" alt="image" src="https://user-images.githubusercontent.com/89661904/233534746-9ddf2cb2-716e-4b04-91f6-6726359c29f5.png">
 
 I can be seen calling them and offsetting them all together in blue here:
+
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/89661904/233534806-6b48bfc3-2587-427b-9e54-535203765791.png">
 
 Before I show the blue plot, I am going to show the plot where they are all different colors, so it is clear which points are coming from which set.
