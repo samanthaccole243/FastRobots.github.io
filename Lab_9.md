@@ -44,4 +44,16 @@ Here are the polar plots for zero, positive three:
 ![image](https://user-images.githubusercontent.com/89661904/233534459-dc818184-52d4-4639-ae13-ad9bc889043e.png)
 
 For each of these trials and locations, I also saved the data under different names in jupyter.
- 
+ I used this function here borrowed by a student from another year to plot all of my data sets together:
+ <img width="609" alt="image" src="https://user-images.githubusercontent.com/89661904/233534746-9ddf2cb2-716e-4b04-91f6-6726359c29f5.png">
+
+I can be seen calling them and offsetting them all together in blue here:
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/89661904/233534806-6b48bfc3-2587-427b-9e54-535203765791.png">
+
+Before I show the blue plot, I am going to show the plot where they are all different colors, so it is clear which points are coming from which set.
+For the plot below, p5_n3_t1 is plotted in blue, p5_n3_t2 is plotted in cyan.
+
+![image](https://user-images.githubusercontent.com/89661904/233534883-c235bddb-16b7-44a5-8c83-d96dfca0b49c.png)
+
+
+
