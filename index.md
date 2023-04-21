@@ -33,3 +33,5 @@ Hello! Welcome to my page.
 
 [Lab 8](https://samanthaccole243.github.io/FastRobots.github.io/Lab_8.html)
 
+[Lab 9](https://samanthaccole243.github.io/FastRobots.github.io/Lab_9.html)
+
