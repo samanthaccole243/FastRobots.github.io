@@ -20,5 +20,28 @@ My robot would then perform a slowly incremented turn seen here:
 
 ___Video here___
 
-From this video I did cut down the time of movement and the overturn. Because my robot differed a bit how many increments it took to rotate 360 degrees due to mechanical instability I did decide to leave in a slight over rotation which can be seen in all plots below. Next it was time to test this lady in pink robot out on the taped sections in the room. To graph each location on polar plots, I had to ater the deg of the yaw to radians, which you can see being done in the notification handler above. I decided to both graph a line and the actual point dots for more information on these plots. I also added an adjustment term to rotate each reading since the robot has no ide what degree it actually started at only where it has moved from then.
+From this video I did cut down the time of movement and the overturn. Because my robot differed a bit how many increments it took to rotate 360 degrees due to mechanical instability I did decide to leave in a slight over rotation which can be seen in all plots below. Next it was time to test this lady in pink robot out on the taped sections in the room. To graph each location on polar plots, I had to ater the deg of the yaw to radians, which you can see being done in the notification handler above. I decided to both graph a line and the actual point dots for more information on these plots. I also added an adjustment term to rotate each reading since the robot has no ide what degree it actually started at only where it has moved from then. This python code used for ploting can beseen here:
+<img width="274" alt="image" src="https://user-images.githubusercontent.com/89661904/233534507-5de8a6aa-cfcd-4b09-92db-f5b577701777.png">
+
+The polar plot for the position of positive 5 negative three can be seen here:
+![image](https://user-images.githubusercontent.com/89661904/233534059-3963c2c0-15a1-4ff0-b51c-96d5352f9efd.png)
+![image](https://user-images.githubusercontent.com/89661904/233534170-b636eb76-2a5e-457a-a0cb-9b70430574e0.png)
+
+As you can see I saved data for two trials at each location.
+
+Here are the polar plots for negative 3, negative 2:
+![image](https://user-images.githubusercontent.com/89661904/233534236-ec7bf350-a0d2-4146-bb4f-a48b3ba16e54.png)
+![image](https://user-images.githubusercontent.com/89661904/233534261-e0d002a3-0177-4acb-8482-22d0c6f03777.png)
+
+Here are the plots for positive five, positive 3.
+![image](https://user-images.githubusercontent.com/89661904/233534313-c972dace-9546-47f8-96f4-285b490396e2.png)
+
+![image](https://user-images.githubusercontent.com/89661904/233534329-9498ecd3-19c2-465c-ac8d-d4c26632c05c.png)
+
+Here are the polar plots for zero, positive three:
+![image](https://user-images.githubusercontent.com/89661904/233534436-3586f2b4-e152-4131-b83a-1dc8377dd847.png)
+
+![image](https://user-images.githubusercontent.com/89661904/233534459-dc818184-52d4-4639-ae13-ad9bc889043e.png)
+
+
  
