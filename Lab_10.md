@@ -1,4 +1,4 @@
-### Lab 10
+## Lab 10
 
 Before lab we were asked to set up the simulator and run the starting instructions. This imported all necessary libraries and set up the simulator. Next,  we started the simulator using these lines:
 
@@ -30,7 +30,7 @@ I then started them back up again and ran the following lines of code. These pri
 
 We were also asked to review many topics which I will reiterate:
 
-__Robots
+#### Lab
 
 
 
