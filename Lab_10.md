@@ -16,7 +16,7 @@ Next we run these lines:
 
 <img width="405" alt="image" src="https://user-images.githubusercontent.com/89661904/234408857-3ae9c6df-b320-46f7-8365-2ae6e8479d2c.png">
 
-This starts the plotter functioning. I maneuvered the little care around the main box in the room using the right and left arrow to change the angel, the up and down arrow to move forwards and backwards, and the space bar to pause. The plotter after this can be seen here:
+This starts the plotter functioning. I maneuvered the little care around the main box in the room using the right and left arrow to change the angel, the up and down arrow to move forwards and backwards, and the space bar to pause. The plotter after this can be seen below.
 
 <img width="304" alt="image" src="https://user-images.githubusercontent.com/89661904/234407147-7e818c8f-3635-4717-9eeb-94a76bfdde84.png">
 
