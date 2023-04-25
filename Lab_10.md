@@ -11,7 +11,12 @@ The images below show that the simulator and plotter are running:
 <img width="224" alt="image" src="https://user-images.githubusercontent.com/89661904/234406538-c2e49197-3ce4-4cae-9e6a-1910a5b975ec.png">
 
 
-Next we ran this code:
+Next we run these lines:
+
+
+<img width="405" alt="image" src="https://user-images.githubusercontent.com/89661904/234408857-3ae9c6df-b320-46f7-8365-2ae6e8479d2c.png">
+
+This starts the plotter functioning. I maneuvered the little care around the main box in the room using the right and left arrow to change the angel, the up and down arrow to move forwards and backwards, and the space bar to pause. The plotter after this can be seen here:
 
 <img width="304" alt="image" src="https://user-images.githubusercontent.com/89661904/234407147-7e818c8f-3635-4717-9eeb-94a76bfdde84.png">
 
@@ -19,3 +24,5 @@ Next we ran this code:
 <img width="352" alt="image" src="https://user-images.githubusercontent.com/89661904/234407255-effbe9bc-e38f-44b3-8b49-7e8894f79ad5.png">
 
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/89661904/234407522-272bdae8-4e32-49ab-add0-cab969fbea3c.png">
+
+<img width="405" alt="image" src="https://user-images.githubusercontent.com/89661904/234408857-3ae9c6df-b320-46f7-8365-2ae6e8479d2c.png">
