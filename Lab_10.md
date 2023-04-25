@@ -32,8 +32,23 @@ We were also asked to review many topics which I will reiterate:
 
 ## Review Topics
 _Ground Truth_ : The actual real location of the robot
+
 _Odometry_ : The process of a robot using the ToF sensors to estimate their location.
-_Robot Localization_ : 
+
+_Robot Localization_ : Using odometry
+
+_Grid Localization_ : approximate 3-dimentional location: (x,y,theta). There are too many possible states so this is minimized into a grid of (.3048m, .3804m, and 20 degrees) and the location is estimated according to the states in the grid. We were given a visual of this grid in lab. This can be seen here: 
+<img width="479" alt="image" src="https://user-images.githubusercontent.com/89661904/234425170-080be26c-e95e-4aa7-9601-04c776b99817.png">
+
+_Sensor Model_ : using a Gaussian distribution to estimate and iradicate measurement noise.
+
+_Motion Model_ : using odometry as explained above. 
+
+_Bayes Filter Algorithm_ : This uses a prediction and then an update. The prediction guesses where the robot moves using movement data (uncertainty added) and the update uses measurement data to decrease the uncertainty.
+
+_prior belief_ : belief calculated after the prediction step
+
+
 
 
 
