@@ -38,6 +38,7 @@ _Odometry_ : The process of a robot using the ToF sensors to estimate their loca
 _Robot Localization_ : Using odometry
 
 _Grid Localization_ : approximate 3-dimentional location: (x,y,theta). There are too many possible states so this is minimized into a grid of (.3048m, .3804m, and 20 degrees) and the location is estimated according to the states in the grid. We were given a visual of this grid in lab. This can be seen here: 
+
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/89661904/234425170-080be26c-e95e-4aa7-9601-04c776b99817.png">
 
 _Sensor Model_ : using a Gaussian distribution to estimate and iradicate measurement noise.
@@ -56,6 +57,7 @@ _Given Trajectory_ :
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/89661904/234426732-673159e0-cdb4-49c3-8f6e-408d65018318.png">
 
 We were also given this _Observation Data_ :
+
 <img width="471" alt="image" src="https://user-images.githubusercontent.com/89661904/234426889-95d5489c-89ff-4c87-9d17-36bcc972ce7d.png">
 
 
