@@ -2,12 +2,16 @@
 
 Before lab we were asked to set up the simulator and run the starting instructions. This imported all necessary libraries and set up the simulator. Next,  we started the simulator using these lines:
 
+<img width="465" alt="image" src="https://user-images.githubusercontent.com/89661904/234406582-f12be59d-9280-4395-bd99-2e4753f440a1.png">
+
+The images below show that the simulator and plotter are running:
 
 <img width="652" alt="image" src="https://user-images.githubusercontent.com/89661904/234406472-18c91e10-a5d7-45b7-a979-2de1c0e7426e.png">
 
 <img width="224" alt="image" src="https://user-images.githubusercontent.com/89661904/234406538-c2e49197-3ce4-4cae-9e6a-1910a5b975ec.png">
 
-<img width="465" alt="image" src="https://user-images.githubusercontent.com/89661904/234406582-f12be59d-9280-4395-bd99-2e4753f440a1.png">
+
+Next we ran this code:
 
 <img width="304" alt="image" src="https://user-images.githubusercontent.com/89661904/234407147-7e818c8f-3635-4717-9eeb-94a76bfdde84.png">
 
