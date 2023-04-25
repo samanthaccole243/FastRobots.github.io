@@ -20,9 +20,14 @@ This starts the plotter functioning. I maneuvered the little care around the mai
 
 <img width="304" alt="image" src="https://user-images.githubusercontent.com/89661904/234407147-7e818c8f-3635-4717-9eeb-94a76bfdde84.png">
 
+I then used these lines to stop the plotter and simulator:
 
 <img width="352" alt="image" src="https://user-images.githubusercontent.com/89661904/234407255-effbe9bc-e38f-44b3-8b49-7e8894f79ad5.png">
 
+I then started them back up again and ran these lines of code:
+
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/89661904/234407522-272bdae8-4e32-49ab-add0-cab969fbea3c.png">
+
+This prints the sensor values as the car maneuvers. Here is a photo of those outputs.
 
 <img width="405" alt="image" src="https://user-images.githubusercontent.com/89661904/234408857-3ae9c6df-b320-46f7-8365-2ae6e8479d2c.png">
