@@ -6,9 +6,9 @@ Before lab we were asked to set up the simulator and run the starting instructio
 
 The images below show that the simulator and plotter are running:
 
-<img width="652" alt="image" src="https://user-images.githubusercontent.com/89661904/234406472-18c91e10-a5d7-45b7-a979-2de1c0e7426e.png">
-
 <img width="224" alt="image" src="https://user-images.githubusercontent.com/89661904/234406538-c2e49197-3ce4-4cae-9e6a-1910a5b975ec.png">
+
+<img width="652" alt="image" src="https://user-images.githubusercontent.com/89661904/234406472-18c91e10-a5d7-45b7-a979-2de1c0e7426e.png">
 
 
 Next we run these lines:
