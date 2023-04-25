@@ -48,7 +48,18 @@ _Bayes Filter Algorithm_ : This uses a prediction and then an update. The predic
 
 _Prior Belief_ : belief calculated after the prediction step
 
-### Lab Task
+## Lab Task 
+Perform Grid localization with the given sample directory and attach a video of the best results along the trajectory.
+
+_Given Trajectory_ : 
+<img width="432" alt="image" src="https://user-images.githubusercontent.com/89661904/234426732-673159e0-cdb4-49c3-8f6e-408d65018318.png">
+
+We were also given this _Observation Data_ :
+<img width="471" alt="image" src="https://user-images.githubusercontent.com/89661904/234426889-95d5489c-89ff-4c87-9d17-36bcc972ce7d.png">
+
+
+## Lab
+
 
 
 
