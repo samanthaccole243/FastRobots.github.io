@@ -58,6 +58,7 @@ _Given Trajectory_ :
 
 We were also given this _Observation Data_ :
 
+
 <img width="471" alt="image" src="https://user-images.githubusercontent.com/89661904/234426889-95d5489c-89ff-4c87-9d17-36bcc972ce7d.png">
 
 
