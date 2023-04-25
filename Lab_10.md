@@ -52,6 +52,7 @@ _Prior Belief_ : belief calculated after the prediction step
 Perform Grid localization with the given sample directory and attach a video of the best results along the trajectory.
 
 _Given Trajectory_ : 
+
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/89661904/234426732-673159e0-cdb4-49c3-8f6e-408d65018318.png">
 
 We were also given this _Observation Data_ :
