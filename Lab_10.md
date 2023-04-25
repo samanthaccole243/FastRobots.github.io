@@ -31,7 +31,9 @@ I then started them back up again and ran the following lines of code. These pri
 We were also asked to review many topics which I will reiterate:
 
 ## Review Topics
-_Ground Truth_
+_Ground Truth_ : The actual real location of the robot
+_Odometry_ : The process of a robot using the ToF sensors to estimate their location.
+_Robot Localization_ : 
 
 
 
