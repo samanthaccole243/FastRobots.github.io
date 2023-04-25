@@ -30,8 +30,8 @@ I then started them back up again and ran the following lines of code. These pri
 
 We were also asked to review many topics which I will reiterate:
 
-#### Robot Localization :
-is
+## Review Topics
+_Ground Truth_
 
 
 
