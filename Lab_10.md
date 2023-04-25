@@ -42,13 +42,13 @@ _Grid Localization_ : approximate 3-dimentional location: (x,y,theta). There are
 
 _Sensor Model_ : using a Gaussian distribution to estimate and iradicate measurement noise.
 
-_Motion Model_ : using odometry as explained above. 
+_Motion Model_ : using odometry to determine a control input.
 
 _Bayes Filter Algorithm_ : This uses a prediction and then an update. The prediction guesses where the robot moves using movement data (uncertainty added) and the update uses measurement data to decrease the uncertainty.
 
-_prior belief_ : belief calculated after the prediction step
+_Prior Belief_ : belief calculated after the prediction step
 
-
+### Lab Task
 
 
 
