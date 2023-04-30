@@ -63,7 +63,7 @@ We were also given this _Observation Data_ setup:
 
 
 ## Lab
-
+ The first function to write is called compute_control. This takes two inputs, curr pose which is the pose now at time t and prev pose which is the pose at time t-1. It then returns the control input u expressed as delta_rot_1, delta_trans, delta_rot_2. My code for this can be seen here:
 
 
 
