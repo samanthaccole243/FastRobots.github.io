@@ -67,6 +67,6 @@ We were also given this _Observation Data_ setup:
 
 The second function is the probability that the motion model is correct. This can be seen here:
 
-The next function goes through the every possible location the robot could be to try to zero in on where the robot could actually be.
+The next function goes through the every possible location the robot could be to try to zero in on where the robot might actually be.
 
 
