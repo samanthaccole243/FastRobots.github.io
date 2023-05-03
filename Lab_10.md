@@ -64,7 +64,7 @@ We were also given this _Observation Data_ setup:
 
 ## Lab Procedure
 
-# Helpful Tips
+### Helpful Tips
 
 pyton math module and associated functions were recommended, as well as the gaussian function of the BaseLocalization class. Th gaussian function can be helpful for modeling noise.
 We were also given this line of code to help prevent ploating point underflow: <img width="248" alt="image" src="https://user-images.githubusercontent.com/89661904/236052963-8c256bf0-5935-4a9e-9115-effb5e112f4e.png">
