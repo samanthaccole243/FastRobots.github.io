@@ -69,6 +69,8 @@ We were also given this _Observation Data_ setup:
 pyton math module and associated functions were recommended, as well as the gaussian function of the BaseLocalization class. Th gaussian function can be helpful for modeling noise.
 We were also given this line of code to help prevent ploating point underflow: <img width="248" alt="image" src="https://user-images.githubusercontent.com/89661904/236052963-8c256bf0-5935-4a9e-9115-effb5e112f4e.png">
 
+### Lab
+
  The first function to write is called compute_control. This takes two inputs, curr pose which is the pose now at time t and prev pose which is the pose at time t-1. It then returns the control input u expressed as delta_rot_1, delta_trans, delta_rot_2. My code for this can be seen here:
 
 <img width="533" alt="image" src="https://user-images.githubusercontent.com/89661904/236059740-7da3ad6a-b5ec-477f-b0e7-d49cb9c9470e.png">
