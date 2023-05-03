@@ -71,8 +71,33 @@ We were also given this line of code to help prevent ploating point underflow: <
 
  The first function to write is called compute_control. This takes two inputs, curr pose which is the pose now at time t and prev pose which is the pose at time t-1. It then returns the control input u expressed as delta_rot_1, delta_trans, delta_rot_2. My code for this can be seen here:
 
-The second function is the probability that the motion model is correct. This can be seen here:
+<img width="533" alt="image" src="https://user-images.githubusercontent.com/89661904/236059740-7da3ad6a-b5ec-477f-b0e7-d49cb9c9470e.png">
 
-The next function goes through the every possible location the robot could be to try to zero in on where the robot might actually be. This is the prediction step.
 
+The second function is the probability that the motion model is correct. This can be determined using the given lab formula seen here:
+
+<img width="357" alt="image" src="https://user-images.githubusercontent.com/89661904/236059980-cbc492c3-8e9f-419a-9f88-1deffe876ce0.png">
+
+
+The code I wrote for this can be seen here:
+
+<img width="664" alt="image" src="https://user-images.githubusercontent.com/89661904/236059686-1fcf7319-5128-42ec-8633-b33c0de4ef5d.png">
+
+
+The next function goes through the every possible location the robot could be to try to zero in on where the robot might actually be. This is the prediction step and choose the one with the highest probability to be correct. This function can be seen here:
+
+<img width="676" alt="image" src="https://user-images.githubusercontent.com/89661904/236060442-a5dcb540-19b5-4936-8bd2-350bfe0e978c.png">
+
+The next function goes through the different 18 observed robot poses that should be passed in using an array. The function then goes through each of these and calculates the probability that that data was actually taken from the thought location. This uses this given probability function.
+
+<img width="242" alt="image" src="https://user-images.githubusercontent.com/89661904/236060994-b55e4cd8-53d9-4359-8b4a-a0fae7285003.png">
+
+My implementation of this function can be seen here:
+<img width="699" alt="image" src="https://user-images.githubusercontent.com/89661904/236061081-98daa68d-ead1-493b-85e1-00fade6b0fd1.png">
+
+Lastly we needed to implement the update step for the Bayes Filter. This uses the above probability and the bel bar (multiplying each all together to get the total) to update the belief of the robots pose.
+My code can be seen here:
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/89661904/236061379-9b2cca8e-4fc4-4dda-acb3-3d3daecba78a.png">
+
+I want to Thank many past student pages I looked at as well as Anya Prabowo and Jack Defay in particular. Their pages really helped me understand the scope of the project and understand how to write some of the code.
 
