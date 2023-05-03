@@ -103,3 +103,6 @@ My code can be seen here:
 
 I want to Thank many past student pages I looked at as well as Anya Prabowo and Jack Defay in particular. Their pages really helped me understand the scope of the project and understand how to write some of the code. 
 
+Below is a link to my video. In this video, I show the code being run in the necessary order and the actual implemenation on the simulator and plotter. Thhank you!
+
+
