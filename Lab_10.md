@@ -99,5 +99,5 @@ Lastly we needed to implement the update step for the Bayes Filter. This uses th
 My code can be seen here:
 <img width="507" alt="image" src="https://user-images.githubusercontent.com/89661904/236061379-9b2cca8e-4fc4-4dda-acb3-3d3daecba78a.png">
 
-I want to Thank many past student pages I looked at as well as Anya Prabowo and Jack Defay in particular. Their pages really helped me understand the scope of the project and understand how to write some of the code.
+I want to Thank many past student pages I looked at as well as Anya Prabowo and Jack Defay in particular. Their pages really helped me understand the scope of the project and understand how to write some of the code. 
 
