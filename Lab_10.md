@@ -62,11 +62,17 @@ We were also given this _Observation Data_ setup:
 <img width="471" alt="image" src="https://user-images.githubusercontent.com/89661904/234426889-95d5489c-89ff-4c87-9d17-36bcc972ce7d.png">
 
 
-## Lab
+## Lab Procedure
+
+## Helpful Tips
+
+pyton math module and associated functions were recommended, as well as the gaussian function of the BaseLocalization class. Th gaussian function can be helpful for modeling noise.
+We were also given this line of code to help prevent ploating point underflow: <img width="248" alt="image" src="https://user-images.githubusercontent.com/89661904/236052963-8c256bf0-5935-4a9e-9115-effb5e112f4e.png">
+
  The first function to write is called compute_control. This takes two inputs, curr pose which is the pose now at time t and prev pose which is the pose at time t-1. It then returns the control input u expressed as delta_rot_1, delta_trans, delta_rot_2. My code for this can be seen here:
 
 The second function is the probability that the motion model is correct. This can be seen here:
 
-The next function goes through the every possible location the robot could be to try to zero in on where the robot might actually be.
+The next function goes through the every possible location the robot could be to try to zero in on where the robot might actually be. This is the prediction step.
 
 
