@@ -14,6 +14,12 @@ Hello! Welcome to my page.
 ![IMG_6752](https://user-images.githubusercontent.com/89661904/218489191-92a39a97-ee47-4088-87af-5aa15dd23943.jpg)
 ![IMG_7116](https://user-images.githubusercontent.com/89661904/224583416-53fe4bf9-7a6c-4502-9474-79bfa5fcbdc1.jpg)
 
+![FullSizeRender](https://user-images.githubusercontent.com/89661904/236074591-13cec5cf-e692-4fa1-9103-fe10e5161b8e.jpg)
+![dff4d719-01b2-46e1-a683-59ea2d42f156](https://user-images.githubusercontent.com/89661904/236074602-dc85e0bd-0510-4149-a137-54011919ce90.jpg)
+![69656623429__CE10EA67-49D8-4039-AE22-4423798DE174](https://user-images.githubusercontent.com/89661904/236074657-9f8a386a-0320-41a5-a8f2-29a871769e1c.jpg)
+featureing our bio sister:
+![IMG_6830](https://user-images.githubusercontent.com/89661904/236074678-a47642bc-9ec8-4dcd-ad72-dcfeaa4080a9.jpg)
+
 
 ## Links to Lab descriptions!
 
