@@ -29,4 +29,22 @@ As stated previously, for this lab we are given everything else as well as a rec
 
 <img width="680" alt="image" src="https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/57ea4779-acfa-42a4-82d9-26b8b59b819f">
 
-You can see that there is a coded out hardcoded array. I used this to test my function. I couldnt seem to get the localization to be slightly close. Everytime I took a measurement, even in different locations, it placed me in the same spot in the box. After a long time trying to solve this, I realized the code requires that the robot turn anti-clockwise. This was not stated in the lab handout and it is not able to be seen in the code since they did not want to give us the answers to lab 10 by seeing lab 11. It turns out thayt the robot also had to start in a set direction. this was also not clearly stateed in the lab handout. I had tried to get help from other TAs regarding my code and why the localization wasnt working and two TAs did not know, but finally a third TA told me the secret that the code requires anti-clockwise turning and the robot to start in a certain direction.
+You can see that there is a coded out hardcoded array. I used this to test my function. I couldnt seem to get the localization to be slightly close. Everytime I took a measurement, even in different locations, it placed me in the same spot in the box. After a long time trying to solve this, I realized the code requires that the robot turn anti-clockwise. This was not stated in the lab handout and it is not able to be seen in the code since they did not want to give us the answers to lab 10 by seeing lab 11. It turns out thayt the robot also had to start in a set direction. this was also not clearly stateed in the lab handout. I had tried to get help from other TAs regarding my code and why the localization wasnt working and two TAs did not know, but finally a third TA told me the secret that the code requires anti-clockwise turning and the robot to start in a certain direction. I made this change adustment to my code (which is seen in the arduino code above). The robot collection is performed and the localization is pretty close!! The green dot represents the ground truth locations while the blue dot is the localization estimate. The results can be seen here:
+This is the locattion of (0,3):
+![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/28db690b-6c29-4f6b-931c-fd5856b3e3e9)
+
+This is for the (-3, -5) location:
+![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/2abc9988-7fc9-41da-8a77-219dd0745f8e)
+
+
+This is for the (-3, 5) location:
+![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/ab9b8c03-4b36-4878-bc9f-a549075ef5cc)
+
+This is for the (3, 5) location:
+![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/84da225f-8e8f-4645-b17d-bc1f0174bc5e)
+
+There are a few reasons that the points are not exact:
+
+
+
+
