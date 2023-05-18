@@ -34,17 +34,22 @@ This is the locattion of (0,3):
 ![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/28db690b-6c29-4f6b-931c-fd5856b3e3e9)
 
 This is for the (-3, -5) location:
+
 ![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/2abc9988-7fc9-41da-8a77-219dd0745f8e)
 
 
 This is for the (-3, 5) location:
+
 ![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/ab9b8c03-4b36-4878-bc9f-a549075ef5cc)
 
 This is for the (3, 5) location:
+
 ![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/84da225f-8e8f-4645-b17d-bc1f0174bc5e)
 
 There are a few reasons that the points are not exact:
-
+1. My method of data collection: My measurements are made with timed increments. Due to robot mechanical issues, the motors definitely do not turn the exact same number of degrees every time the robot goes to make an increment. This also means not every time the robot makes a full 360 and sometimes it goes over 360. The measurement below can show the (-3,5) location again being localized. This time you see the localization estimate is quite off. This particular instance, My robot did not complete a full 360 degree turn. this made the localization off. Even when the robot does seem to make a 360 degree turn there is no guaranteeing that each turn was 20 degrees exactly as the code is expecting.
+2. The tof sensors can also be quite off. There is only one reading taken at each spot. I do stop and wait for the full reading to take place at each turn, hopefully increasing my accuracy, but there could still be room for ToF hardware error. In theory I could have taken multiple reading in each spot and averaged them to find a more exact reading for that location.
+3. Unkown code stipulations. As previously stated, I was not originally aware the code required the robot to turn anti-clockwaise and face a set direction for the code to work. There are 18 points of measurement. It is unclear if the code expects the first point to be 20 degrees from the starting location, or the starting location itself. This difference could cause a slight offset. I suspect something like this since in some graphs the offset seems very similar distance in each location.
 
 
 
