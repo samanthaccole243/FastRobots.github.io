@@ -44,3 +44,5 @@ featureing our bio sister:
 [Lab 10](https://samanthaccole243.github.io/FastRobots.github.io/Lab_10.html)
 
 [Lab 11](https://samanthaccole243.github.io/FastRobots.github.io/Lab_11.html)
+
+[Lab 12](https://samanthaccole243.github.io/FastRobots.github.io/Lab_12.html)
