@@ -54,6 +54,8 @@ There are a few reasons that the points are not exact:
 ![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/274c19aa-6ba3-41f6-8640-cc9f509c74f1)
 
 2.The tof sensors can also be quite off. There is only one reading taken at each spot. I do stop and wait for the full reading to take place at each turn, hopefully increasing my accuracy, but there could still be room for ToF hardware error. In theory I could have taken multiple reading in each spot and averaged them to find a more exact reading for that location.
+
+
 3.Unkown code stipulations. As previously stated, I was not originally aware the code required the robot to turn anti-clockwaise and face a set direction for the code to work. There are 18 points of measurement. It is unclear if the code expects the first point to be 20 degrees from the starting location, or the starting location itself. This difference could cause a slight offset. I suspect something like this since in some graphs the offset seems very similar distance in each location. 
 
 
