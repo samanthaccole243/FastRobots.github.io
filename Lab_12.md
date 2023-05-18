@@ -34,6 +34,9 @@ It is also important to note that I have speed maximum and minimum caps on the s
 
 My videos (There are many) can be seen here:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/esv_dGLrPD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+I can be seen tapping the robot once or twice. This is mainly because my motors occassionally kind of freeze up and the wheels get stuck. If I give it another nudge, problem solved.
 
 Obviously this is not a perfect execution. I was not expecting one. There are many reasons for the inacuracies.
 1. No localization code: I did not use localization. this is because I felt as though my localization was not precise enough for the prupose of the lab to meet the requirements. If localization was more exact. This would be much more accurate, but also very very difficult to code. 
