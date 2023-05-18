@@ -44,7 +44,7 @@ This is for the (-3, 5) location:
 
 This is for the (3, 5) location:
 
-![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/84da225f-8e8f-4645-b17d-bc1f0174bc5e)
+![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/eb02f9ed-adfb-478a-afbf-3ba41254e4b3)
 
 There are a few reasons that the points are not exact:
 1. My method of data collection: My measurements are made with timed increments. Due to robot mechanical issues, the motors definitely do not turn the exact same number of degrees every time the robot goes to make an increment. This also means not every time the robot makes a full 360 and sometimes it goes over 360. The measurement below can show the (-3,5) location again being localized. This time you see the localization estimate is quite off. This particular instance, My robot did not complete a full 360 degree turn. this made the localization off. Even when the robot does seem to make a 360 degree turn there is no guaranteeing that each turn was 20 degrees exactly as the code is expecting. ![image](https://github.com/samanthaccole243/FastRobots.github.io/assets/89661904/274c19aa-6ba3-41f6-8640-cc9f509c74f1)
