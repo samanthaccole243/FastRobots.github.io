@@ -1,5 +1,5 @@
 ### Lab 12
-
+ 
 
 Lab 12 has very simple instructions with quite a difficult task. The main idea is to use some method which was used throughout the semester to showcase what you have learned by following this path:
 
