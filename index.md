@@ -1,6 +1,6 @@
 ## Samantha Cole's ECE 5160 Fast Robots page
 
-Hello! Welcome to my page.
+Hello! Welcome to my page. Link to lab 12 at the bottom!!
 
 ## Introduction
  I am an Electrical and Computer Engineering Masters student at Cornell University graduating in May 2023. I also graduated from Cornell University with an undergraduate degree in Electrical and Computer Engineering and a minor in Mechanical and Aerospace Engineering. I spend my free time taking care of my dog *cough cough* baby. Pippy (pictured below). New Pippy photos added for each lab!
